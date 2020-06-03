@@ -1,0 +1,94 @@
+body {
+  background-color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473e3f;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.app {
+  background-color: white;
+  margin-top: 10rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.app h1 {
+  text-align: center;
+  color: teal;
+  margin: 2rem 0;
+}
+.app #contacts {
+  margin: 1rem 0;
+}
+.app #contacts li {
+  margin: 0.25rem 0;
+}
+.app #contacts li button {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  margin: 0 0.3rem;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.app .inputs {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.app .inputs label {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.app .inputs label p {
+  margin: 0.25rem 0;
+}
+
+.app .inputs label input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.app .buttons {
+  margin: 1rem 0;
+}
+
+.app .buttons button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.app .visibility p {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.visibility__p--active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.valid {
+  display: none;
+}
+.invalid {
+  display: block;
+}
+
+.bold {
+  font-weight: 600;
+}
